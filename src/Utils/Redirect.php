@@ -7,7 +7,7 @@ class Redirect
     public static function redirect(
         string|array $message,
         string $type = 'success',
-        string $url = '../View/messsage.php'
+        string $url = '../View/message.php'
     ){
       session_start();
       if(is_array($message)){
@@ -18,9 +18,9 @@ class Redirect
         $_SESSION[ 'msg_warning'] = $html;
       }else{
              if($type == 'success'){
-                $_SESSION['mg_success'] = $message;
+                $_SESSION['msg_success'] = $message;
              }else{
-                $_SESSION['mg_error'] = $message;
+                $_SESSION['msg_error'] = $message;
              }
           }
       header("location:$url");

@@ -18,10 +18,9 @@ class Validation
     {
         return $password >8;
     }
-
-    public static function validateConfirmPassword($confirmpassword): bool
+    public static function validateNumber(float $number): bool
     {
-        return $confirmpassword >8;
+        return $number > 0;
     }
 }
 ?>
