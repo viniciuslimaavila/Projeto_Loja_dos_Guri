@@ -6,12 +6,12 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja de varejo - Cadastro</title>
+    <title>Loja dos guri - Cadastro</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <header class="bg-violet-800">
+    <header class="bg-blue-500">
         <ul class="flex">
             <li class="mx-3">
                 <a href="../../index.html">Home</a>
@@ -42,7 +42,7 @@
                 </article>
             </section>
             <article class="flex justify-center mt-4">
-                <button type="submit" class="rounded p-8 bg-blue-700 text-white">cadastrar</button>
+                <button type="submit" class="rounded p-8 bg-blue-500 text-white">cadastrar</button>
 
             </article>
         </form>
